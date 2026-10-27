@@ -16,3 +16,5 @@
 * git branch	git branch	Wyświetlenie lokalnych gałęzi i oznaczenie aktywnej.
 
 * git switch	git switch -c feature/nazwa	Utworzenie gałęzi roboczej i przełączenie na nią.
+
+* git log	git log --oneline -5	Skrócony podgląd pięciu ostatnich commitów.
