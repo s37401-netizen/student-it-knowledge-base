@@ -8,4 +8,4 @@ Repo zawiera podstawowe ściągi do przedmiotów.
 * WARP
 * PRG1
 
-Cała zawartość jest w folderze: __docs__ warp
+Cała zawartość jest w folderze: __docs__. Znajdują się tam akutalnie 3 ściągi
