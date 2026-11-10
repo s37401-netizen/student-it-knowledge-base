@@ -1,1 +1,45 @@
-<link rel="stylesheet" href="../styles.css">.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <h1>.NET</h1>
+        <nav>
+            <a href="../index.html">Index</a>
+            <a href="bash.html">bash</a>
+            <a href="git.html">git</a>
+        </nav>    
+    </header>
+    <main>
+    <table>
+        <caption>Polecenia .NET</caption>
+        <thead>
+            <tr><th>Polecenie</th><th>Znaczenie</th></tr>
+        </thead>
+        <tbody>
+            <tr><td><code>git clone	git clone URL</code></td><td>Pobranie repozytorium i utworzenie lokalnego katalogu.</td></tr>
+            <tr><td><code>git status</code></td><td>Sprawdzenie gałęzi oraz plików zmienionych i przygotowanych.</td></tr>
+            <tr><td><code>git add	git add docs/warp/git.md</code></td><td>Dodanie konkretnego pliku do obszaru staging.</td></tr>
+            <tr><td><code>git commit	git commit -m "docs: add Git cheatsheet"</code></td><td>Zapis przygotowanych zmian z czytelnym komunikatem.</td></tr>
+            <tr><td><code>git push	git push -u origin feature/git-cheatsheet</code></td><td>Publikacja nowej gałęzi i ustawienie śledzenia.</td></tr>
+            <tr><td><code>git pull	git pull --ff-only origin main</code></td><td>Pobranie zmian bez tworzenia nieoczekiwanego merge commita.</td></tr>
+            <tr><td><code>git fetch	git fetch origin</code></td><td>Pobranie informacji o zmianach bez modyfikowania plików roboczych.</td></tr>
+            <tr><td><code>git branch</code></td><td>Wyświetlenie lokalnych gałęzi i oznaczenie aktywnej.</td></tr>
+            <tr><td><code>git switch	git switch -c feature/nazwa</code></td><td>Utworzenie gałęzi roboczej i przełączenie na nią.</td></tr>
+            <tr><td><code>git log	git log --oneline -5</code></td><td>Skrócony podgląd pięciu ostatnich commitów.</td></tr>
+
+        </tbody>
+    </table>
+    </main>
+    
+    <footer>
+        <a href="/docs/prg1/dotnet-cli.md"></a>
+        <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/"></a>
+    </footer>
+</body>
+</html>
