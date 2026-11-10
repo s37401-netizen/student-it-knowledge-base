@@ -1,1 +1,55 @@
 <link rel="stylesheet" href="../styles.css">.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Document</title>
+    </head>
+    <body>
+    <header>
+        <h1>WARP - GIT</h1>
+        <nav>
+            <a href="../index.html">Index</a>
+            <a href="dotnet-cli.html">dotnet-cli</a>
+            <a href="git.html">git</a>
+        </nav>    
+        </header>
+    <main>
+        <h3>Zasady pracy z GIT</h3>
+        <table class="command-table">
+        <caption>Polecenia GIT</caption>
+            <thead>
+            <tr><th>Polecenie</th><th>Znaczenie</th></tr>
+            </thead>
+        <tbody>
+            <tr><td>git clone</td><td>Pobranie repozytorium i utworzenie lokalnego katalogu.</td></tr>
+            <tr><td>git status</td><td>Sprawdzenie gałęzi oraz plików zmienionych i przygotowanych.</td></tr>
+            <tr><td>git add</td><td>Dodanie konkretnego pliku do obszaru staging.</td></tr>
+            <tr><td>git commit</td><td>Zapis przygotowanych zmian z czytelnym komunikatem.</td></tr>
+            <tr><td>git push</td><td>Publikacja nowej gałęzi i ustawienie śledzenia.</td></tr>
+            <tr><td>git pull</td><td>Pobranie zmian bez tworzenia nieoczekiwanego merge commita.</td></tr>
+            <tr><td>git fetch</td><td>Pobranie informacji o zmianach bez modyfikowania plików roboczych.</td></tr>
+            <tr><td>git branch</td><td>Wyświetlenie lokalnych gałęzi i oznaczenie aktywnej.</td></tr>
+            <tr><td>git switch</td><td>Przełączenie się na inną gałąź.</td></tr>
+            <tr><td>git log</td><td>Skrócony podgląd pięciu ostatnich commitów.</td></tr>
+        </tbody>
+        </table>
+        <h3>Procedura pracy</h3>
+        <ol>
+            <li>Przejdź na branch main i pobierz najnowszy kod: git switch main, git pull</li>
+            <li>Utwórz i zmien na nowy branch: git switch -c nazwa</li>
+            <li>Wprowadź i sprawdź zmiany w plikach</li>
+            <li>Przygotuj pliki i zapisz zmianę: git add (plik), git commit -m "opis zmian"</li>
+            <li>Wyślij branch: git push -u origin nazwa</li>
+            <li>Otwórz Pull Request z nowego brancha do main i poproś o review</li>
+        </ol>
+    </main>
+    
+    <footer>
+        <a href="../docs/warp/git.md">Dokumentacja GIT</a>
+    </footer>
+</body>
+</html>
