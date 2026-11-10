@@ -17,7 +17,7 @@ body {
   line-height: 1.6;
 }
 
-header, main, footer {
+header, main, section, footer {
   width: min(100% - 32px, 960px);
   margin-inline: auto;
 }
@@ -29,6 +29,9 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
+.documentation {
+  padding-inline: 16px;
+}
 .info-note {
   padding: 16px;
   border-left: 4px solid var(--accent);
