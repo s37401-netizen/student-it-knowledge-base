@@ -1,7 +1,7 @@
 ### student-it-knowledge-base
 Repo zawiera podstawowe ściągi do przedmiotów.
 ##
-* Autorzy: @MS000123, @s37401-netizen
+* Autorzy: Maciej Stencel, Mykyta Koniachenko
 * Przedmiot: WARP
 ### Przedmioty
 * UKOS
